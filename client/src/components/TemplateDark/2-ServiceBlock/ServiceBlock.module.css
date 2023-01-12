@@ -1,0 +1,361 @@
+.secServices {
+    background: #111111e3;
+    padding: 40px 0 50px 0;
+
+}
+
+.h2S {
+    margin: 40px 0;
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    opacity: .8;
+}
+
+.container {
+    margin: auto;
+    height: auto;
+    min-height: 500px;
+    width: 80%;
+    padding: 0 20px;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+
+
+.servicesTabsNavs {
+    color: #dde6d5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .servicesTab{
+    margin: 0 20px 10px 0;
+    height: 25px;
+    font-family: 'Bebas Neue';
+    color: #e8ece4;
+    font-weight: 500;
+    font-size: 18pt;
+    overflow-x: auto;
+  }
+  
+  .servicesTab.active {
+      color: #F25924;
+  }
+  
+  /* Block Services Item  */
+  
+  .servicesTabsItems{
+      display: flex;
+      width: 90%;
+      margin: 40px auto;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .servicesLine{
+      margin: 10px auto;
+      width: 700px;
+      display: flex;
+      flex-direction: column;
+      align-items: top;
+      justify-content: flex-start;
+  }
+  
+  .servicesHead{
+      display: flex;
+      flex-direction: row;
+      align-items: top;
+      justify-content: space-between;
+      border-bottom: 1px dotted white;
+  }
+  
+  .servicesLineName{
+      height: 25px;
+      font-family: 'Bebas Neue';
+      color: #ffffff;
+      font-weight: 500;
+      font-size: 15pt;
+      cursor: pointer;
+  
+  }
+  
+  .servicesLineName.on {
+    opacity: 1;
+    color: #F25924;
+    cursor: pointer;
+  
+  }
+  
+  .servicesLinePrices{
+      height: 25px;
+      font-family: 'AkzidenzGroteskPro Ex';
+      color: #F25924;
+      font-weight: 700;
+      font-size: 15pt; 
+  }
+  
+  .servicesDescEl{
+      /* font-family: 'Montserrat Alternates', sans-serif; */
+      font-family: 'AkzidenzGroteskPro Ex';
+      margin: 10px 0;
+      color: #e8ece4;
+      inline-size: 140%;
+      font-weight: 400;
+      font-size: 10pt; 
+      
+  }
+  
+  .hidden {
+      display: none;
+  }
+  
+  .block {
+      display: block;
+      width: 700px;
+  }
+  
+  .servicesTabs .servicestabsItem.active .servicesLine .servicesLineName {
+      cursor: pointer;
+      color: #FFF;
+      opacity: .5;
+      -webkit-transform: translate(0,0);
+      transform: translate(0,0);
+      -webkit-transition: color .3s ease-out,opacity .3s ease-out .3s,-webkit-transform .5s ease-out .3s;
+      transition: color .3s ease-out,opacity .3s ease-out .3s,-webkit-transform .5s ease-out .3s;
+      transition: transform .5s ease-out .3s,color .3s ease-out,opacity .3s ease-out .3s;
+      transition: transform .5s ease-out .3s,color .3s ease-out,opacity .3s ease-out .3s,-webkit-transform .5s ease-out .3s;
+  }
+/* 
+.h2S {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+    
+
+}
+
+
+.secServices .container {
+    position: relative;
+    padding-left: 15px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+section {
+    display: block;
+}
+
+.container, .containerFluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.secServices .secTitle {
+    position: relative;
+    z-index: 20;
+}
+
+.secTitle {
+    font-size: 50px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    opacity: .2;
+    font-family: 'Bebas Neue';
+    margin-bottom: 40px;
+}
+
+.secTitle {
+    font-weight: 700;
+    color: #FFF;
+    letter-spacing: .3em;
+}
+
+.servicesWrap {
+    display: block;
+}
+
+.servicesWrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: relative;
+    z-index: 30;
+}
+
+.servicesTabs {
+    position: relative;
+    z-index: 10;
+}
+
+div {
+    display: block;
+}
+
+.servicesTabs .servicesTabsNavs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 20;
+}
+
+.servicesTabs .servicesTabsTop {
+    margin-bottom: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.servicesTabs .servicesTabsItems {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.servicesTabs .servicesTabsNavs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 20;
+}
+
+.servicesTabs .servicesTabsNav.active {
+    color: #F25924;
+}
+
+.servicesTabs .servicesTabsNav {
+    font-size: 16px;
+    line-height: 1.3;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    color: #FFF;
+    font-family: 'Bebas Neue';
+    padding-right: 30px;
+    cursor: pointer;
+    position: relative;
+    white-space: nowrap;
+}
+
+.servicesTabs .servicesTabItems {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.servicesTabs .servicesLine {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.servicesTabs .servicesTabsItem.active .servicesLine .servicesLineName.on {
+    opacity: 1;
+    color: #F25924;
+    cursor: pointer;
+
+}
+
+.servicesTabs .services-tabsItem.active .servicesLine .servicesLineName {
+    cursor: pointer;
+    color: #FFF;
+    opacity: .5;
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    -webkit-transition: color .3s ease-out,opacity .3s ease-out .3s,-webkit-transform .5s ease-out .3s;
+    transition: color .3s ease-out,opacity .3s ease-out .3s,-webkit-transform .5s ease-out .3s;
+    transition: transform .5s ease-out .3s,color .3s ease-out,opacity .3s ease-out .3s;
+    transition: transform .5s ease-out .3s,color .3s ease-out,opacity .3s ease-out .3s,-webkit-transform .5s ease-out .3s;
+
+}
+
+
+.servicesTabs .servicesLine .servicesLinePrices {
+    width: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 0 0 20px;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.servicesTabs .servicesTabsItem.active .servicesDescEl {
+    padding-top: 15px;
+}
+
+.servicesDescEl {
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: #FFF;
+    width: 100%;
+    max-width: calc(100% - 300px);
+    padding-right: 30px;
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.block {
+    display: block;
+    
+}
+
+.servicesLinePrices {
+    opacity: 1;
+    color: #F25924;
+    font-weight: 500;
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    -webkit-transition: all .5s ease-out .5s;
+    transition: all .5s ease-out .5s;
+} */

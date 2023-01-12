@@ -1,0 +1,50 @@
+/* Resetting all browser styles */
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;	
+	}
+	*,*:before,*:after{
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	:focus,:active{outline: none;}
+	a:focus,a:active{outline: none;}
+	
+nav,footer,header,aside{display: block;}
+
+html,body{
+		height: 100%;
+		width: 100%;
+		font-size: 100%;
+    font-family: 'Ubuntu', sans-serif;
+		line-height: 1;
+		font-size: 12pt;
+		-ms-text-size-adjust: 100%;
+		-moz-text-size-adjust: 100%;
+		-webkit-text-size-adjust: 100%;
+	}
+
+input,button,textarea{font-family: inhetit;}
+
+input::-ms-clear{display: none;}
+	button{cursor: pointer;}
+	button::-moz-focus-inner {padding: 0; border: 0;}
+	a, a:visited{text-decoration: none;}
+	ul li{list-style: none;}
+	img{vertical-align: top;}
+
+/* .container{
+  width: 100vw;
+  height: 100vh;
+} */
+
+/* Colors
+background #ecf0f3
+Main text color #7B8197
+Dark text color #4d5160
+Accent text color #EC5128
+Light orange #F0B076
+Main yellow #F7CD46
+Dark yellow #dcaf1c*/

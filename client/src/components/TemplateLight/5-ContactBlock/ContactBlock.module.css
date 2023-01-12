@@ -1,0 +1,115 @@
+.contactPageConteiner{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FDF2EE;
+}
+
+.contactContent{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+}
+
+.btnDiv{
+  width: 200px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: center;
+}
+
+.icon{
+  width: 30px;
+  height: auto;
+  margin: 10px;
+  color: #F25924;
+  transition: 300ms;
+}
+
+.icon:hover{
+  color: #bc4119;
+  transition: 300ms;
+}
+
+.iconW{
+  width: 35px;
+  height: auto;
+  margin: 10px;
+  color: #F25924;
+  transition: 300ms;
+}
+
+.iconW:hover{
+  color: #bc4119;
+  transition: 300ms;
+}
+
+.iconVk{
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  transition: 300ms;
+}
+
+.iconVk:hover{
+  content: url('../../../../public/img/vkontakte_fill.svg');
+  transition: 300ms;
+}
+
+.mainFooter{
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.h4MainBlock{
+  height: auto;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #4d5160;
+  font-weight: 700;
+  font-size: 14pt;
+}
+
+/* Addresses */
+
+.addressContainer{
+  width: 100%;
+  height: auto;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.adress{
+  margin: 0px 20px 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.adressH5{
+    height: 25px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #F25924;
+    font-weight: 700;
+    font-size: 14pt; 
+}
+
+.adressP{
+    height: 25px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #4d5160;
+    font-weight: 500;
+    font-size: 14pt;
+}

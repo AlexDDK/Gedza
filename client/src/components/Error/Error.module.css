@@ -1,0 +1,35 @@
+.errorDiv{
+  width: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.errorContetn{
+  margin: auto;
+  width: 300px;
+  height: 60%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.textSpan{
+  margin: auto;
+  font-family: 'Ubuntu', sans-serif;
+	font-size: 16pt;
+	color: #4d5160;
+  text-align: center;
+  line-height: 120%;
+}
+
+.errorIcon{
+  margin: 20px auto;
+  color: rgb(193, 53, 53);
+  width: 60px;
+  height: auto;
+}

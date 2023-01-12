@@ -1,0 +1,134 @@
+.secServices {
+  background: #C5CEBD;
+  padding: 40px 0 50px 0;
+}
+
+.container {
+  margin: auto;
+  height: auto;
+  min-height: 500px;
+  width: 80%;
+  padding: 0 20px;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.h2Service {
+  margin: 40px 0;
+  text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 42pt;
+}
+
+/* Block Service Category */
+
+.servicesTabsNavs {
+  color: #dde6d5;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.servicesTab{
+  margin: 0 20px 10px 0;
+  height: 25px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #e8ece4;
+  font-weight: 500;
+  font-size: 16pt;
+  overflow-x: auto;
+}
+
+.servicesTab.active {
+    color: #F25924;
+}
+
+/* Block Services Item  */
+
+.servicesTabsItems{
+    display: flex;
+    width: 90%;
+    margin: 0px auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicesLine{
+    margin: 10px auto;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    justify-content: flex-start;
+}
+
+.servicesHead{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+    border-bottom: 1px dotted white;
+}
+
+.servicesLineName{
+    height: 25px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 14pt;
+    cursor: pointer;
+
+}
+
+.servicesLineName.on {
+  opacity: 1;
+  color: #F25924;
+  cursor: pointer;
+
+}
+
+.servicesLinePrices{
+    height: 25px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #F25924;
+    font-weight: 700;
+    font-size: 14pt; 
+}
+
+.servicesDescEl{
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 10px 0;
+    color: #e8ece4;
+    inline-size: 140%;
+    font-weight: 400;
+    font-size: 12pt; 
+    
+}
+
+.hidden {
+    display: none;
+}
+
+.block {
+    display: block;
+    width: 700px;
+}
+
+.servicesTabs .servicestabsItem.active .servicesLine .servicesLineName {
+    cursor: pointer;
+    color: #FFF;
+    opacity: .5;
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    -webkit-transition: color .3s ease-out,opacity .3s ease-out .3s,-webkit-transform .5s ease-out .3s;
+    transition: color .3s ease-out,opacity .3s ease-out .3s,-webkit-transform .5s ease-out .3s;
+    transition: transform .5s ease-out .3s,color .3s ease-out,opacity .3s ease-out .3s;
+    transition: transform .5s ease-out .3s,color .3s ease-out,opacity .3s ease-out .3s,-webkit-transform .5s ease-out .3s;
+}

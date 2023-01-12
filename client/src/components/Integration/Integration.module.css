@@ -1,0 +1,126 @@
+.background{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ecf0f3;
+}
+
+.headerBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ycLogo{
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.h3Integr{
+  color:#4d5160;
+  font-size: 28pt;
+  font-weight: 700;
+  max-width: 320px;
+}
+
+h4{
+  margin: 10px;
+  color:#4d5160;
+  font-size: 12pt;
+  font-weight: 200;
+  line-height: 140%;
+  max-width: 320px;
+  margin-bottom: 20px;
+}
+
+/* Form style */
+
+.formDiv{
+	margin: 10vh auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.inputDiv{
+	padding: 5px 10px;
+}
+
+.formLabel{
+	font-size: 12pt;
+  font-weight: 200;
+  color: #7B8197;
+  margin: 0px 10px;
+}
+
+.input{
+	display: block;
+	flex: 1 1 auto;
+	height: 45px;
+	width: 280px;
+	margin: 5px 0px;
+	border-radius: 5px;
+	border-radius: 10px;
+	background: #ecf0f3;
+	box-shadow: inset 4px 4px 8px #d1d9e6,
+         	  	inset -4px -4px 8px #ffffff;
+	padding: 15px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #4d5160;
+}
+
+.input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: rgb(190, 190, 190);
+	opacity: 1; /* Firefox */
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 200;
+	font-size: 12pt;
+} 
+
+.mainBtn{
+  display: inline-block;
+  position: relative;
+  width: 270px;
+  height: 50px;
+  border-radius: 25px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #7B8197;
+  font-size: 14pt;
+  margin: 20px 10px 10px 10px;
+  box-shadow: -8px -4px 8px 0px #ffffff, 8px 4px 12px 0px #d1d9e6;
+  transition: 300ms;
+}
+
+.mainBtn:hover {
+  color:#EC5128;
+  transition: 300ms;
+  background-color: #ecf0f3;
+  box-shadow: -4px -2px 4px 0px #ffffff, 
+            4px 2px 6px 0px #d1d9e6;
+}
+
+.textSpan{
+	margin: auto;
+	padding: 10px 0px;
+  font-family: 'Ubuntu', sans-serif;
+	font-size: 10pt;
+	color: #4d5160;
+}
+
+.txtBtn2{
+  margin: 0px 5px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 10pt;
+  color: #EC5128;
+	background-color: #ecf0f3;
+	text-decoration: underline;
+}
+ 
+.txtBtn2:hover{
+	color: #4d5160;
+}

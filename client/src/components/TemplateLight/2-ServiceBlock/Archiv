@@ -1,0 +1,243 @@
+.secServices {
+  background: #C5CEBD;
+  padding: 40px 0;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+  padding: 0 20px;
+  max-width: 1200px;
+  border: 1px solid red;
+}
+
+.servicesLeft{
+  width: 50%;
+  height: auto;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 1px solid red;
+}
+
+.h2Service {
+  margin: 40px 0;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 48pt;
+  /* margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px; */
+  /* border: 1px solid red; */
+}
+
+/* .secServices .container {
+        margin: auto;
+    position: relative;
+    padding-left: 15px;
+    width: 100%;
+    max-width: 1200px;
+    border: 1px solid red;
+} */
+
+/* section {
+    display: block;
+    border: 1px solid red;
+} */
+
+/* .container, .containerFluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid red;
+} */
+
+/* .secServices .secTitle {
+    position: relative;
+    z-index: 20;
+} */
+
+/* .secTitle {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 500;
+  font-size: 42pt;
+  color: #ffffff;
+} */
+
+/* .servicesWrap {
+    display: block;
+} */
+
+/* .servicesWrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  z-index: 30;
+  border: 1px solid red;
+}
+
+.servicesTabs {
+    position: relative;
+    z-index: 10;
+    border: 1px solid red;
+} */
+
+/* div {
+    display: block;
+    border: 1px solid red;
+} */
+
+/* .servicesTabs .servicesTabsNavs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 20;
+    border: 1px solid red;
+} */
+
+/* .servicesTabs .servicesTabsTop {
+    margin-bottom: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    border: 1px solid red;
+} */
+
+/* .servicesTabs .servicesTabsItems {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+} */
+
+/* .servicesTabs .servicesTabsNavs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 20;
+} */
+
+/* .servicesTabs .servicesTabsNav.active {
+    color: #F25924;
+}
+
+.servicesTabs .servicesTabsNav {
+    font-size: 16px;
+    line-height: 1.3;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    color: #FFF;
+    font-family: 'Bebas Neue';
+    padding-right: 30px;
+    cursor: pointer;
+    position: relative;
+    white-space: nowrap;
+}
+
+.servicesTabs .servicesTabItems {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.servicesTabs .servicesLine {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 40px;
+    position: relative;
+} */
+
+/* .servicesTabs .servicesTabsItem.active .servicesLine .servicesLineName.on {
+    opacity: 1;
+    color: #F25924;
+    cursor: pointer;
+
+} */
+
+/* .servicesTabs .services-tabsItem.active .servicesLine .servicesLineName {
+    cursor: pointer;
+    color: #FFF;
+    opacity: .5;
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    -webkit-transition: color .3s ease-out,opacity .3s ease-out .3s,-webkit-transform .5s ease-out .3s;
+    transition: color .3s ease-out,opacity .3s ease-out .3s,-webkit-transform .5s ease-out .3s;
+    transition: transform .5s ease-out .3s,color .3s ease-out,opacity .3s ease-out .3s;
+    transition: transform .5s ease-out .3s,color .3s ease-out,opacity .3s ease-out .3s,-webkit-transform .5s ease-out .3s;
+
+} */
+
+
+/* .servicesTabs .servicesLine .servicesLinePrices {
+    width: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 0 0 20px;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+} */
+
+/* .servicesTabs .servicesTabsItem.active .servicesDescEl {
+    padding-top: 15px;
+} */
+
+/* .servicesDescEl {
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: #FFF;
+    width: 100%;
+    max-width: calc(100% - 300px);
+    padding-right: 30px;
+    display: none;
+} */
+
+.hidden {
+    display: none;
+}
+
+/* .block {
+    display: block; 
+} */
+
+/* .servicesLinePrices {
+    opacity: 1;
+    color: #F25924;
+    font-weight: 500;
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    -webkit-transition: all .5s ease-out .5s;
+    transition: all .5s ease-out .5s;
+} */

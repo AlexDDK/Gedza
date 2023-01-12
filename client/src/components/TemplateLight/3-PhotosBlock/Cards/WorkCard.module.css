@@ -1,0 +1,18 @@
+.photoCard{
+  width: 300px;
+	height: 300px;
+  /* display: inline; */
+  margin: 10px;
+	overflow: hidden;
+}
+
+.imgCard {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 500ms ease;
+}
+
+.imgCard:hover {
+  transform: scale(1.1);
+}

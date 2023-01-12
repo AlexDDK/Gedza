@@ -1,0 +1,15 @@
+.background{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100vw;
+  height: auto;
+  background-color: #ecf0f3;
+}
+
+.container{
+  width: 90vw;
+  border-radius: 0 0 10px 10px;
+  overflow: hidden;
+}

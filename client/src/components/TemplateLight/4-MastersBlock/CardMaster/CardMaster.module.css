@@ -1,0 +1,65 @@
+/* From uiverse.io by @alexruix */
+.card {
+  height: 360px;
+  width: 280px;
+  margin: 10px;
+  position: relative;
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius: 1em;
+  overflow: hidden
+  /* box-shadow: 0 0 30px 8px #cbb09d; */
+  ;
+ }
+ 
+  /*Image*/
+ .cardImage {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background: #B49986;
+  background: linear-gradient(to top, #B49986, #DFCCC2);
+ }
+ 
+ /*Description */
+ .cardDescription {
+  display: flex;
+  position: absolute;
+  gap: 1em;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #f5f5f5;
+  height: 30%;
+  width: 100%;
+  bottom: 0;
+  border-radius: 1em 1em 0 0;
+  transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding: 1rem;
+  overflow: hidden;
+ }
+ 
+ /*Text*/
+ .textTitle {
+  height: auto;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #5f5966;
+  font-weight: 700;
+  font-size: 12pt;
+ }
+ 
+ .textBody {
+  height: auto;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #C2B8CC;
+  font-weight: 400;
+  font-size: 12pt;
+ }
+ 
+ 
+ /* Hover states */
+ 
+ .card:hover .cardDescription {
+  transform: translateY(100%);
+ }
+ 
+ 
